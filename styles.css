@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 
 *{
@@ -116,3 +117,123 @@ footer {
     bottom: 0;
     width: 100%;
 }
+=======
+@charset "UTF-8";
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');  
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --font1: verdana, geneva,tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: "Sriracha", cursive;
+}
+html, body {
+    background-color: rgb(250, 200, 200);
+    height: 80vh;
+    font-family: var(--font1);
+    margin: auto;
+    max-height: 80vw;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-family: var(--font2);
+    font-size: 3vw;
+
+}
+
+header > h1 {
+
+    font-variant: small-caps;
+}
+
+header > p {
+
+    padding-bottom: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(165, 222, 248);
+}
+
+section {
+    
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 3.5vw;
+  
+
+ }
+
+section.normal {
+
+    background-color: white;
+    color: rgb(3, 3, 3);
+}
+
+section.imagem {
+
+    
+    color: rgb(252, 250, 250);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.288);
+    background-attachment: fixed;
+    background-size: cover;
+
+
+
+}
+
+section#img01 {
+
+  background-image: url(background001.jpg);
+  
+}
+
+section#img02 {
+    background-image: url(background002.jpg);
+    
+}
+
+section.imagem > p {
+
+    background-color: rgba(8, 8, 8, 0.432);
+    display: inline-block;
+    color: rgb(251, 251, 252);
+    box-shadow: 2px 1px 0px rgba(0, 0, 0, 0.021);
+    background-size: cover;
+}
+section {
+    padding-bottom: 2em ;
+}
+
+footer {
+    background-color: black;
+    color: rgb(246, 245, 248);
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+}
+>>>>>>> fa44faf9b0b5f1864605003931b647dfa164dc4f
